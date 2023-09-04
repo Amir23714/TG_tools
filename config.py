@@ -1,0 +1,11 @@
+api_id = '25288963'
+api_hash = '3b01a81d98b7849e17ab7079b80a9f6b'
+phone_number = '+79934123605'
+text = 'Я заметил тебя в чате по арбитражу трафика. Значит ты развиваешься.\n\nУ меня Ты можешь найти слитые курсы по ' \
+       'арбитражу трафика, дизайну и маркетинку.\n\n Вот ссылка: https://t.me/+G37llncsPuQ4ZDYy\n Не благодари)'
+proxy = 'n'
+scheme = 'None'
+hostname = 'None'
+port = 'None'
+username = 'None'
+proxy_password = 'None'
