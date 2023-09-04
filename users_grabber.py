@@ -76,8 +76,8 @@ async def main():
                     if message.from_user is not None and message.from_user.id != me.id and not message.from_user.is_bot:
                         if message.date.timestamp() < before:
                             break
-                        if not get_user(message.from_user.id):
-                            create_user(message.from_user.id, 1)
+                        if not get_user(message.from_user.username):
+                            create_user(message.from_user.username, 1)
                             count += 1
                 print(f'Added {count} users')
 
