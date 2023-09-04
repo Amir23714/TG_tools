@@ -50,22 +50,27 @@ alembic init migrations
 from models.models import Base
 target_metadata = Base.metadata
 ```
+8. Run
+```bash
+alembic revision --autogenerate
+alembic upgrade head
+```
 
 ## Choose correct file for your aim
 
-8. Run the spam.py to spam the participants of a certain chat directly into private messages:
+9. Run the spam.py to spam the participants of a certain chat directly into private messages:
 
 ```bash
 python spam.py
 ```
 
-9. Run the spam_to_chats.py to spam to all chats in which you are a member of.
+10. Run the spam_to_chats.py to spam to all chats in which you are a member of.
 
 ```bash
 python spam_to_chats.py
 ```
 
-10. Run the users_grabber.py to collect active users of a certain chat into the database
+11. Run the users_grabber.py to collect active users of a certain chat into the database
 
 ```bash
 python users_grabber.py
