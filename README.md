@@ -23,6 +23,11 @@ git clone https://github.com/Amir23714/telegram_spamer.git
 cd telegram_spamer
 ```
 
+And create 'sessions' directory:
+```bash
+mkdir sessions
+```
+
 4. Run setup file (**do not forget to put the text to be spammed to text.txt**):
 
 ```bash
