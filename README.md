@@ -14,13 +14,13 @@ To install and set up the project, follow these steps:
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/Amir23714/telegram_spamer.git
+git clone https://github.com/Amir23714/TG_tools.git
 ```
 
 3. Navigate to the project directory:
 
 ```bash
-cd telegram_spamer
+cd TG_tools
 ```
 
 And create 'sessions' directory:
